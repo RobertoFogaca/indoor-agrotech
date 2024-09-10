@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      screens: {
+        'custom': '900px', // Define o ponto de interrupção personalizado
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
